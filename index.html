@@ -11,8 +11,8 @@
 <form onsubmit="generarNumeros(event)"> 
     Semilla (X0): <input type="text" id="semilla" pattern="\d+" minlength="4" title="Ingrese un numero de 4 digitos a mas" required>    <br>
     Constante (a): <input type="text" id="constante" pattern="\d+" minlength="4" title="Ingrese un numero de 4 digitos a mas"required><br>
-    Número de Iteraciones: <input type="text" id="iteraciones"required><br>
-    Número de Dígitos: <input type="text" id="digitos"required><br>
+    Número de Iteraciones: <input type="text" pattern="\d+"id="iteraciones" minlength="1"title="Ingrese un numero" required><br>
+    Número de Dígitos: <input type="text" id="digitos"pattern="\d+" minlength="1" title="Ingrese un numero "required><br>
     <input type="submit" value="Generar">
 </form>
 
